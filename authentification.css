@@ -1,0 +1,78 @@
+
+
+.div1{
+    background-color:darkgrey;
+    height: 300px;
+    width: 800px;
+    margin-top: 100px;
+    padding-top: 60px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+.inp1{
+    background-color: darkgray;
+    width: 750px;
+    height: 50px;
+    border:none;
+    border-bottom: 3px solid black;
+
+}
+.inp2{
+    background-color: darkgray;
+    width: 750px;
+    height: 50px;
+    border:none;
+    border-bottom: 3px solid black;
+
+}
+
+.inp1:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 10px 10px 0px whitesmoke;
+    transition: 0.7s;
+    
+}
+
+.inp2:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 10px 10px 0px whitesmoke;
+    transition: 0.7s;
+    
+}
+
+.btn1{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.btn1:focus {
+    background-color: green;
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 10px 10px 0px whitesmoke;
+    transition: 0.7s;
+    
+}
+
+body
+{
+    background-color: dimgray;
+}
+
+.Faa{
+    color: red;
+    text-shadow: 10px red;
+    font-family: cursive;
+    font-size: xx-large;
+    text-align: center;
+}
+.Tr{
+    color: rgb(39, 240, 39);
+    text-shadow: 10px green;
+    font-family: cursive;
+    font-size: xx-large;
+    text-align: center;
+}
